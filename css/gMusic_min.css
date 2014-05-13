@@ -1,0 +1,31 @@
+html {
+    min-width: 100px;
+}
+
+body{
+    width:380px;
+}
+div#doc.g-doc{
+    height: 61px;
+    background-color: #fafafa;
+}
+
+div#player {
+    position: inherit;
+    margin-top: 5px;
+    min-width: 100px;
+    width: 100%;
+}
+
+div#slider_wrapper{
+    padding-left: 0px;
+}
+
+#oneGoogleWrapper,
+#nav-content-container,
+#player-left-wrapper,
+#player-right-wrapper
+{
+    display: none;
+}
+

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "gMusic",
+  "minimum_chrome_version": "24.0.1307.0",
+  "version": "2",
+  "icons": {
+      "16": "/img/icon_16.png",
+      "128": "/img/icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["app.js"]
+    }
+  },
+  "permissions": [
+    "webview"
+  ]
+}
