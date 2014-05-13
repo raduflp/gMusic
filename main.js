@@ -2,15 +2,15 @@
  * Created by Radu on 3/1/14.
  */
 var isMiniModeOn = false;
+var win_w_min = 325;
+var win_h_min = 135;
+var win_w_max = 940;
+var win_h_max = 500;
 
 window.onresize = doLayout;
 
 window.onload = function() {
     var webview = document.querySelector('webview');
-    var win_w_min = 380;
-    var win_h_min = 100;
-    var win_w_max = 940;
-    var win_h_max = 500;
 
     chrome.app.window.current().resizeTo(win_w_max, win_h_max);
     doLayout();
@@ -56,8 +56,8 @@ function doLayout() {
 
     var webview = document.querySelector('webview');
     if (isMiniModeOn){
-        webview.style.width = '380px';
-        webview.style.height = '61px';
+        webview.style.width = '' + win_w_min +'px';
+        webview.style.height = '' + win_h_min + 'px';
     }else{
         webview.style.width = (document.documentElement.clientWidth) + 'px';
         webview.style.height = document.documentElement.clientHeight + 'px';

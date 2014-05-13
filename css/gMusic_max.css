@@ -6,11 +6,14 @@ body{
     width:100%;
 }
 
+div.gb_0.gb_1a.gb_bc.gb_e{
+    display: none;
+}
+
 div#doc.g-doc{
     height: 440px;
     background-color: rgba(0,0,0,.2);
 }
-
 
 div#player {
     position: absolute;
@@ -18,6 +21,8 @@ div#player {
     min-width: 850px;
     width: 100%;
     height: 56px;
+    box-shadow: 0 0 8px #888888;
+    box-shadow: 0 0 8px rgba(0,0,0,.4);
 }
 
 div#slider_wrapper {
@@ -26,12 +31,29 @@ div#slider_wrapper {
 
 #oneGoogleWrapper,
 #nav-content-container,
-#player-left-wrapper,
-#player-right-wrapper
+#player-right-wrapper,
+.now-playing-menu-wrapper,
+.hover-overlay
 {
     display: block;
 }
 
-div.gb_0.gb_1a.gb_bc.gb_e{
-    display: none;
+.player-middle, .player-top{
+    top:0px;
 }
+
+div#player-left-wrapper {
+    width: 50%;
+    margin-right: -159px;
+}
+
+#player-left-wrapper div.player-left{
+    margin-right: 159px;
+}
+
+#playerSongInfo .image-wrapper {
+    width: 62px;
+    height: 62px;
+    top: -6px;
+}
+

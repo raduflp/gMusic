@@ -26,7 +26,6 @@ body {
 #container.min #switch{
     height: 55px;
     right: 0px;
-    top: 17px;
 }
 
 #container.max #b_min,
@@ -37,8 +36,4 @@ body {
 #container.max #b_max,
 #container.min #b_min{
     display: none;
-}
-
-#container.min #wv{
-    margin-top: 10px;
 }
