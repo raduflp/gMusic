@@ -6,7 +6,9 @@ body{
     width:100%;
 }
 
-div.gb_0.gb_1a.gb_bc.gb_e{
+div.gb_0.gb_1a.gb_bc.gb_e,
+div.gb_2.gb_4a.gb_gc.gb_e,
+span.gbii{
     display: none;
 }
 
@@ -56,4 +58,3 @@ div#player-left-wrapper {
     height: 62px;
     top: -6px;
 }
-
