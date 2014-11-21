@@ -8,7 +8,12 @@ chrome.app.runtime.onRestarted.addListener(function() {
 });
 
 function runApp() {
-  chrome.app.window.create('main.html', {
-  	id: "gMusic"
+  chrome.app.window.create('index.html', {
+  	id: "gMusic",
+    frame: 'none',
+    outerBounds: {
+      minWidth: 325,
+      minHeight: 135
+    },
   });
 }
